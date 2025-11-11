@@ -1,6 +1,6 @@
 {
 	"folders": [
-			 { "path": "C:\\SVN\\colab", "name": "colab"  },    
+			 { "path": "D:\\Git\\colab", "name": "colab"  },    
 	],
 	"settings": {
 		// ★ 추가: 워크스페이스 전역 인터프리터를 가상환경으로 고정

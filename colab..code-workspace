@@ -1,0 +1,26 @@
+{
+	"folders": [
+			 { "path": "C:\\SVN\\colab", "name": "colab"  },    
+	],
+	"settings": {
+		// ★ 추가: 워크스페이스 전역 인터프리터를 가상환경으로 고정
+	       "python.defaultInterpreterPath": "C:\\devprojects\\virtual_env\\colab\\env3.12\\Scripts\\python.exe",
+
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [			
+			{
+			"label": "Run Django (colab)",
+			"type": "shell",
+			"command": "C:/devprojects/virtual_env/colab/env3.12/Scripts/python.exe",
+			"args": ["-u", "manage.py", "runserver"],
+			"options": {
+			     "cwd": "${workspaceFolder:colab}", "env": { "PYTHONUNBUFFERED": "1" }
+			   },
+			   "problemMatcher": [],
+			   "group": "build"
+			 },
+		]
+	}
+}

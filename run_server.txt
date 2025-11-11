@@ -1,0 +1,8 @@
+# 가상환경 활성화
+C:\devprojects\virtual_env\colab\env3.12\Scripts\Activate.ps1
+
+# 프로젝트 디렉토리로 이동
+cd C:\SVN\colab
+
+# Django 개발 서버 실행 (포트 8002)
+python manage.py runserver 8003

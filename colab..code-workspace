@@ -14,7 +14,7 @@
 			"label": "Run Django (colab)",
 			"type": "shell",
 			"command": "C:/devprojects/virtual_env/colab/env3.12/Scripts/python.exe",
-			"args": ["-u", "manage.py", "runserver"],
+			"args": ["-u", "manage.py", "runserver", "8003"],
 			"options": {
 			     "cwd": "${workspaceFolder:colab}", "env": { "PYTHONUNBUFFERED": "1" }
 			   },
